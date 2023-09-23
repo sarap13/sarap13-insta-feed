@@ -1,0 +1,91 @@
+body {
+    background-color: lightgray;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    text-justify: inter-word;
+    padding-top: 10px ;
+}
+
+.insta-feeds-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.box {
+    /*height: 450px; Al ponerlo aparece una raya en medio */
+    width: 500px;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.first-post {
+    background-color: red;
+}
+
+.second-post {
+    background-color: green;
+}
+
+.third-post {
+    background-color: blueviolet;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.header p {
+    margin-left: 10px;
+}
+
+.numbers {
+    color: grey;
+    align-self: self-end;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.photo {
+    height: 350px;
+}
+
+.photo img{
+    width: 500px;
+    height: 350px;
+    margin-top: 0px;
+}
+
+.text {
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    margin: 0;
+    
+}
+
+.text p {
+    min-height: 30px;
+    justify-self: center;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
